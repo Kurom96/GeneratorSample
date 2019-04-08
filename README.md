@@ -1,12 +1,12 @@
 # GeneratorSample
 Sample of Generator
 
-# Generator を3行で説明する。
-function* で定義する。
-Generator は実行時点ではコードは実行せずに next がコールされるたびに 次の yield が呼ばれるところまでコードを実行する。
+# Generator を3行くらいで説明する。
+function* で定義する。  
+Generator は実行時点ではコードは実行せずに next がコールされるたびに 次の yield が呼ばれるところまでコードを実行する。  
 使い方を工夫すればイテレータ以外にも非同期処理の待合に使えたりするらしい。
 
-詳しくは公式を参照
+詳しくは公式を参照  
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Iterators_and_Generators
 
 # Clone
@@ -36,7 +36,8 @@ $ node simple
 ```
 で実際に動かしてみてください。
 
-1〜10000 までの素数を検出する Generator はこんな感じ。
+# step up
+1〜10000 までの素数を検出する Generator。  
 `isPrimeNumber(num)` は num が素数か否かを判定する。
 ```
 1〜10000 までの素数を検出する Generator はこんな感じ。
@@ -49,7 +50,7 @@ function* generatePrimeNumber(from, to) {
 }
 ```
 
+以下で動かしてみてください
 ```
 $ node prime
 ```
-で実行可能
