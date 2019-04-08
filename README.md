@@ -38,9 +38,9 @@ $ node simple
 
 # step up
 1〜10000 までの素数を検出する Generator。  
-`isPrimeNumber(num)` は num が素数か否かを判定する。
+`isPrimeNumber(num)` はパラメタが素数か否かを判定。
+
 ```
-1〜10000 までの素数を検出する Generator はこんな感じ。
 function* generatePrimeNumber(from, to) {
     for (let i = from; i <= to; i++) {
         if (isPrimeNumber(i)) {
