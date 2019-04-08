@@ -1,20 +1,4 @@
 /**
- * 超簡単なジェネレータ
- * @return {IterableIterator<number>}
- */
-function* simpleGenerator() {
-    yield 1;
-    yield 2;
-    yield 3;
-}
-
-for (let i of simpleGenerator()) {
-    console.log(i);
-}
-
-
-
-/**
  * 素数判定
  * @param {Number} num
  * @return {boolean} true: そすう、false: そすうちがう
